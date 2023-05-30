@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>contact</title>
+</head>
+<body>
+    <h1 style="color:rgb(208, 20, 20)">Arabian Hut </h1>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact us</a>
+    <a href="order.html">Order online</a>
+    <div class="white"> 
+        <h3>Contact</h3>
+        <p>Near Palai bus stand,</p> 
+        <p>Tirunelveli</p>
+        <h2>For more information</h2>
+    </div>
+   
+    <div class="form">
+    <form action="" method="GET">
+        <div class="input">
+            <label class="box" for="name">Your name</label>
+            <input type="text" id="name"  name="name" maxlength="15">
+        </div>
+        <div class="input">
+            <label  class="box" for="email">Email id</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="input">
+            <label  class="box" for="number">Phone Number</label>
+            <input type="text" id="number" name="number" maxlength="10">
+        </div>
+        <div>
+            <label for="state">Select State</label>
+            <select name="state" id="state" >
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Andhra Pradhesh">Andhra Pradhesh</option>
+            </select>
+        </div>
+        <div>
+            <label>Gender</label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <label for="date-of-birth">Date of birth</label>
+            <input type="date" name="date-of-birth" id="date-of-birth">
+        </div>
+        <div>
+            <input type="checkbox" name="checkbox" id="sms">
+            <label for="sms">sms alert</label>
+            <br>
+            <input type="checkbox" name="checkbox" id="email">
+            <label for="email">Email alert</label>
+        </div>
+        <div class="btn">
+            <button onclick="alertmsg()">Submit</button>
+            <!--<input type="image" src="images/submit.jpg" width="100" >-->
+
+        </div>
+    </form>
+    </div>
+    <script>
+        function alertmsg(){
+            alert("Your Information has been submitted")
+        }
+    </script>
+</body>
+</html>

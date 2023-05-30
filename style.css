@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+
+a{
+    
+    padding: 5px;
+    color:greenyellow;
+    margin: 5px;
+    }
+
+body{
+    background: url("/images/wallpaper.jpg");
+    
+    
+}
+
+.home{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.form{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 30%;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.box{
+    display: block;
+}
+.input input{
+    border:2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin:5px opx 15px;
+}
+.btn{
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
